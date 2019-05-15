@@ -45,6 +45,12 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
+
+array.each do |item|
+#     item[2] = "$"
+
+
+
 # def sort_array_asc(array)
 #   arr =[25, 7, 1]
 #   array.sort 

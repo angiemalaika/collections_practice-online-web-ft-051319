@@ -46,11 +46,6 @@ def sum_array(array)
 end
 
 
-array.each do |item|
-#     item[2] = "$"
-
-
-
 # def sort_array_asc(array)
 #   arr =[25, 7, 1]
 #   array.sort 
@@ -113,12 +108,12 @@ array.each do |item|
 #     # end
 # end
 
-# def add_s(array)
-#   array.collect do |word|
-#     if array[1] == word
-#       word
-#     else
-#       word + "s"
-#     end
-#   end
-# end
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end

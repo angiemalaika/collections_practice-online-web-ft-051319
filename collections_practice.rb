@@ -41,7 +41,9 @@ def find_a(array)
   end 
 end 
 
-
+def sum_array
+  
+end
 
 # def sort_array_asc(array)
 #   arr =[25, 7, 1]
